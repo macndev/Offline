@@ -57,7 +57,7 @@ namespace mu2e
     _minzsep(pset.get<float>("minzsep",100.0)),
     _maxzsep(pset.get<float>("maxzsep",500.0)),
     _mindphi(pset.get<float>("mindphi",0.5)),
-    _maxdphi(pset.get<float>("maxdphi",2.5)),
+  // _maxdphi(pset.get<float>("maxdphi",2.5)),
     _sigmaPhi(pset.get<float>("sigmaPhi",0.49)),//1636)),// rad
     _mindist(pset.get<float>("mindist",100.0)), // mm
     _maxdist(pset.get<float>("maxdist",500.0)), // mm
@@ -89,7 +89,7 @@ namespace mu2e
     _fitFZMinL(pset.get<float>("fitFZMinLambda",10.)),
     _fitFZMaxL(pset.get<float>("fitFZMaxLambda",510.)),
     _fitFZStepL(pset.get<float>("fitFZStepLambda",4.))
-  {
+  { _maxdphi=_minzsep/_initFZMinL;
     float minarea(pset.get<float>("minArea",5000.0));
     _minarea2    = minarea*minarea;
     _initFZNBins = (int)((_initFZMaxL - _initFZMinL)/_initFZStepL);

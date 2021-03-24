@@ -215,8 +215,8 @@ CprTrigger: { @table::CprTrigger
 	KSFDeM          : [ TTCalTimePeakFinder, TTCalHelixFinderDe, TTCalSeedFitDem ]
 	KSFDeP          : [ TTCalTimePeakFinder, TTCalHelixFinderDe, TTCalSeedFitDep ]
 	# production sequence to find KalReps
-	KFFDeM          : [ TTCalTimePeakFinder, TTCalHelixFinderDe, TTCalSeedFitDem, TTCalTrkFitDem ]
-	KFFDeP          : [ TTCalTimePeakFinder, TTCalHelixFinderDe, TTCalSeedFitDep, TTCalTrkFitDep ]	
+	KFFDeM          : [ TTCalTimePeakFinder, TTCalHelixFinderDe, TTCalHelixMergerDeM, TTCalSeedFitDem, TTCalTrkFitDem ]
+	KFFDeP          : [ TTCalTimePeakFinder, TTCalHelixFinderDe, TTCalHelixMergerDeP, TTCalSeedFitDep, TTCalTrkFitDep ]	
     }
 }
 

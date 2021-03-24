@@ -353,7 +353,7 @@ su2020.trk_reco_ue  : [
 		       TimeClusterFinderUe, HelixFinderUe,   
 		       MHFinderUe,                                             # helix merging
 		       KSFUeMH,                                                # Seed fit (chisquared, no drift)
-		       KFFUeMHPar , KFFUeMHDar                                 # final Kalman filter fit
+		       KFFUeMHPar #, KFFUeMHDar                                 # final Kalman filter fit
 		      ]
 
 # upstream electron reconstruction, DAR

@@ -27,6 +27,9 @@
 #include "G4Helper/inc/G4Helper.hh"
 #include "CLHEP/Units/SystemOfUnits.h"
 
+// art includes
+#include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"
+
 using namespace std;
 
 namespace mu2e {

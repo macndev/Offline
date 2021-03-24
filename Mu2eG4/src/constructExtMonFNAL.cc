@@ -6,6 +6,8 @@
 
 #include <iostream>
 
+#include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"
+
 #include "G4Color.hh"
 #include "G4RotationMatrix.hh"
 #include "G4LogicalVolume.hh"

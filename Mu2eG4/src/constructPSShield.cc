@@ -9,6 +9,8 @@
 #include "cetlib_except/exception.h"
 #include "CLHEP/Vector/ThreeVector.h"
 
+#include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"
+
 #include "G4Tubs.hh"
 #include "G4Polycone.hh"
 #include "G4SubtractionSolid.hh"

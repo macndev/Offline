@@ -7,6 +7,7 @@
 // David Norvil Brown (Louisville), November 2017
 //
 
+#include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"
 #include "ConfigTools/inc/SimpleConfig.hh"
 #include "G4Helper/inc/G4Helper.hh"
 #include "GeometryService/inc/GeomHandle.hh"

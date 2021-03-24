@@ -2,6 +2,7 @@
 #include "DbService/inc/DbService.hh"
 #include "DbTables/inc/DbUtil.hh"
 #include "ConfigTools/inc/ConfigFileLookupPolicy.hh"
+#include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"
 
 
 namespace mu2e {

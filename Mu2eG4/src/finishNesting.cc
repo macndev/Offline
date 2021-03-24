@@ -9,6 +9,9 @@
 #include <iostream>
 #include <iomanip>
 
+// art includes
+#include "art/Framework/Services/Registry/ServiceDefinitionMacros.h"
+
 // Mu2e includes
 #include "Mu2eG4/inc/finishNesting.hh"
 #include "G4Helper/inc/G4Helper.hh"
